@@ -1,0 +1,190 @@
+{
+  "themes" : [
+    {
+      "type" : "light",
+      "container" : ["border", "border-secondary", "rounded", "mt-5", "bg-light"],
+      "title" : ["text-dark"],
+      "input" : ["bg-light", "mt-3", "mb-3", "text-dark"],
+      "button" : ["btn", "bg-light", "text-dark", "w-100"],
+      "buttonAnimation" : ["btn", "bg-light-subtle", "text-light", "w-100"]
+    },
+
+    {
+      "type" : "dark",
+      "container" : ["border", "border-secondary", "rounded", "mt-5", "bg-dark"],
+      "title" : ["text-light"],
+      "input" : ["bg-secondary", "border-dark", "mt-3", "mb-3", "text-light"],
+      "button" : ["btn", "bg-secondary", "text-light", "w-100"],
+      "buttonAnimation" : ["btn", "bg-light", "text-dark", "w-100"]
+    }
+  ],
+
+  "buttons" : [
+
+    {
+      "fun" : "clearInput();", 
+      "style" : {
+        "light" : ["btn", "bg-light", "text-danger", "w-100"],
+        "dark" : ["btn", "bg-secondary", "text-danger", "w-100"]
+      },
+      "animation" : {},
+      "key" : "Escape", 
+      "displayName" : "AC"
+    },
+
+    {
+      "fun" : "backspace();", 
+      "style" : {},
+      "animation" : {},
+      "key" : "Backspace",
+      "displayName" : "⌫"
+    },
+
+    {
+      "fun" : "processInput(' % ');", 
+      "style" : {},
+      "animation" : {},
+      "key" : "%",
+      "displayName" : "%"
+    },
+
+    {
+      "fun" : "processInput(' : ');", 
+      "style" : {},
+      "animation" : {},
+      "key" : "/",
+      "displayName" : "/"
+    },
+
+    {
+      "fun" : "processInput('7');", 
+      "style" : {},
+      "animation" : {},
+      "key" : "7",
+      "displayName" : "7"
+    }, 
+
+    {
+      "fun" : "processInput('8');", 
+      "style" : {},
+      "animation" : {},
+      "key" : "8",
+      "displayName" : "8"
+    },
+
+    {
+      "fun" : "processInput('9');", 
+      "style" : {},
+      "animation" : {},
+      "key" : "9",
+      "displayName" :"9"
+    },
+
+    {
+      "fun" : "processInput(' * ');", 
+      "style" : {},
+      "animation" : {},
+      "key" : "*",
+      "displayName" : "x"
+    },
+
+    {
+      "fun" : "processInput('4');", 
+      "style" : {},
+      "animation" : {},
+      "key" : "4",
+      "displayName" : "4"
+    },
+
+    {
+      "fun" : "processInput('5');", 
+      "style" : {},
+      "animation" : {},
+      "key" : "5",
+      "displayName" : "5"
+    },
+
+    {
+      "fun" : "processInput('6');", 
+      "style" : {},
+      "animation" : {},
+      "key" : "6",
+      "displayName" : "6"
+    },
+
+    {
+      "fun" : "processInput(' - ');", 
+      "style" : {},
+      "animation" : {},
+      "key" : "-",
+      "displayName" : "-"
+    },
+
+    {
+      "fun" : "processInput('1');", 
+      "style" : {},
+      "animation" : {},
+      "key" : "1",
+      "displayName" : "1"
+    },
+
+    {
+      "fun" : "processInput('2');", 
+      "style" : {},
+      "animation" : {},
+      "key" : "2",
+      "displayName" : "2"
+    },
+
+    {
+      "fun" : "processInput('3');", 
+      "style" : {},
+      "animation" : {},
+      "key" : "3",
+      "displayName" : "3"
+    },
+
+    {
+      "fun" : "processInput(' + ');", 
+      "style" : {},
+      "animation" : {},
+      "key" : "+",
+      "displayName" : "+"
+    },
+
+    {
+      "fun" : "processInput('0');", 
+      "style" : {},
+      "animation" : {},
+      "key" : "0",
+      "displayName" : "0"
+    },
+
+    {
+      "fun" : "processInput(',');", 
+      "style" : {},
+      "animation" : {},
+      "key" : ",",
+      "displayName" : ","
+    },
+
+    {
+      "fun" : "processInput('√');", 
+      "style" : {},
+      "animation" : {},
+      "key" : "^",
+      "displayName" : "√"
+    },
+
+    {
+      "fun" : "calc();", 
+      "style" : {
+        "light" : ["btn", "bg-success", "text-dark", "w-100"],
+        "dark" : ["btn", "bg-success", "text-light", "w-100"]
+      },
+      "animation" : {},
+      "key" : "Enter",
+      "displayName" : "="
+    }    
+  ]
+}
